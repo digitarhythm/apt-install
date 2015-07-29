@@ -17,7 +17,7 @@ imagemagick
 .
 --------
 
-# apt-install package.txt
+># apt-install package.txt
 
 Packages that are not installed on the system will be installed.
 If you directly specify the package name, the package is installed.
