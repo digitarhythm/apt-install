@@ -1,12 +1,10 @@
 #apt-install
 apt-get install from package list file.
-  Usage:
-  apt-install [package name | package list file]
-  
-  package name: APT .deb package name.
-  package list file: write package name list to text file.
-  
-  ex) package.txt
+Usage:
+apt-install [package name | package list file]
+package name: APT .deb package name.
+package list file: write package name list to text file.
+ex) package.txt
 --------
 git
 php5
