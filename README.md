@@ -11,11 +11,12 @@ ex) package.txt
 ----
 git  
 php5  
+php5-cli  
+php5-cgi  
+php5-sqlite  
+sqlite3  
 php-pear  
 imagemagick  
-.  
-.  
-.  
 ----
 
 **# apt-install package.txt**  
