@@ -1,7 +1,6 @@
 # apt-install
 apt-get install from package list file.
-
-Usage:
+  Usage:
 apt-install [package name | package list file]
 
 package name: APT .deb package name.
