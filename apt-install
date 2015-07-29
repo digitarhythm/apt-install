@@ -2,6 +2,12 @@
 
 TARGET="$@"
 
+if [ -z ${TARGET} ]; then
+  echo "Usage:"
+  echo "apt-install [package name | package list file]"
+  exit
+fi
+
 if [ -f ${TARGET} ]; then
   for line in `cat ${TARGET}`
   do
