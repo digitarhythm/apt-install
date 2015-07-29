@@ -1,0 +1,17 @@
+#!/bin/bash
+
+TARGET="$@"
+
+if [ -f ${TARGET} ]; then
+  for line in `cat ${TARGET}`
+  do
+    if [ -n "${line}" ]; then
+      ret=`dpkg -l ${line} | egrep "i\s*?${line}"`
+      if [ -z "${ret}" ]; then
+        sudo apt-get install ${line} -y
+      fi
+    fi
+  done
+else
+  sudo apt-get install ${TARGET} -y
+fi
