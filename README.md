@@ -6,10 +6,10 @@ package name: APT .deb package name.
 package list file: write package name list to text file.
 ex) package.txt
 --------
-git
-php5
-php-pear
-imagemagick
+'git'
+'php5'
+'php-pear'
+'imagemagick'
 .
 .
 .
