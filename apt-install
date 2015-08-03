@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#=====================================================
+# apt-get install at once from package list file
+#=====================================================
 TARGET="$@"
 
 if [ -z ${TARGET} ]; then
